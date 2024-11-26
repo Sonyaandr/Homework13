@@ -12,5 +12,9 @@ public class Main {
 
         System.out.println(newBook);
         System.out.println(author);
+
+        Book a = new Book("Путешествие", "Иванов", 1999);
+        Book b = new Book("Прятки", "Петров", "1998");
+
     }
 }
